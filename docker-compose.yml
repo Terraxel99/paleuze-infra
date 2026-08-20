@@ -11,3 +11,9 @@ services:
       - postgres_data:/var/lib/postgresql
     networks:
       - tournament
+
+networks:
+  tournament:
+
+volumes:
+  postgres_data:
